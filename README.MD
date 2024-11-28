@@ -1,7 +1,9 @@
 # Project overview
 
 Project contains implementations some of AI models, some basic structures of neural networks.
+
 **Projects list**
+
 1. Model name: LSTM
    1. project source: [lstm](scr/emotion_recognition/lstm/lstm.py)
    2. implementation of: Long short-term memory network
