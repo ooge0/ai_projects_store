@@ -7,7 +7,7 @@ Project contains implementations some of AI models, some basic structures of neu
 1. Model name: LSTM
    1. project source: [lstm](scr/emotion_recognition/lstm/lstm.py)
    2. implementation of: Long short-term memory network
-   3. dependencies: pandasб tensorflow, sklearn
+   3. dependencies: pandas, tensorflow, sklearn
 2. Model name: LSTM     
    1. project source: [lstm_tuning](scr/emotion_recognition/lstm_tuning),
    2. implementation of: convolution neural network
