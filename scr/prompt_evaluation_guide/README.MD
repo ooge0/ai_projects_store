@@ -1,6 +1,6 @@
 # Project overview
 
-1. project name: [prompt_evaluation_guide](scr/prompt_evaluation_guide)
+1. project name: [prompt_evaluation_guide](scr/prompt_evaluation_guide) 
 2. implementation of: transformer model (gpt2)
 3. dependencies: transformers datasets torch matplotlib seaborn
 

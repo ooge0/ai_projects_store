@@ -1,10 +1,24 @@
 ## Test automation framework for testing UI web site - https://demoqa.com/
 
 ## Table of contents
-[1. Intro](#1-intro)
-[2. Project preparation](#2-project-preparation)
-[3. Project setup](#31-virtual-environment)
-[3.1 Virtual environment](#31-virtual-environment)
+[1. Intro](#1-Intro)
+
+[2. Project preparation](#2-Project-preparation)
+
+[2.1. Data preparation](#21-Data-preparation)
+
+[2.1.1. Text cleaning:](#211-Text-cleaning)
+
+[2.1.2. Emotion annotation:]()
+2.1.3. Augment Data:
+2.1.4. Split dataset:
+2.1.5. Model selection
+3. Implementation
+[3. Project setup](#31-Virtual-environment)
+
+[3.1 Virtual environment](#31-Virtual-environment)
+
+
 
 ## 1. Intro
 This is guide on how to make personal neural network that was trained on some test data set for recognition of human emotions from the text. 
@@ -15,7 +29,7 @@ This is guide on how to make personal neural network that was trained on some te
 5. project aims to train neural networks and analyze how their performance improves with increasing model complexity and advanced training methodologies.
 
 ## 2. Project preparation
-### 2.1. Data Preparation
+### 2.1. Data preparation
 **Sources:**
 - Text snippets come from:
 - The Little Prince (Antoine de Saint-Exupéry)
@@ -25,14 +39,14 @@ This is guide on how to make personal neural network that was trained on some te
 
 Texts presented in `texts_reference.json` and `text_reference_emotional.json`
 
-#### 2.1.1. Text Cleaning:
+#### 2.1.1. Text cleaning:
 
 1. Tokenize text.
 2. Remove stop words and punctuations.
 3. Convert text to lowercase.
 4. Apply lemmatization or stemming.
 
-#### 2.1.2. Emotion Annotation:
+#### 2.1.2. Emotion annotation:
 1. Manually label snippets for emotions like:
    2. joy,
    3. sadness, 
@@ -49,11 +63,11 @@ Use tools like Amazon Mechanical Turk if manual labeling isn’t feasible.
 Use paraphrasing techniques or back-translation for diversity.
 Generate synthetic datasets with GPT-based models.
 
-#### 2.1.4. Split Dataset:
+#### 2.1.4. Split dataset:
 
 Train/Test/Validation ratio: 70/20/10. 
 
-#### 2.1.5. Model Selection
+#### 2.1.5. Model selection
 Use lightweight models such as:
 
 1. Bidirectional LSTMs:
@@ -94,7 +108,7 @@ Use lightweight models such as:
    - Epochs: 10–20 based on early stopping.
    - Batch Size: 32.
                                      
-## 4. Evaluation Metrics
+## 4. Evaluation metrics
 Use these metrics for analysis:
 1. Accuracy: Fraction of correct predictions.
 2. F1-Score: Balance between precision and recall.
