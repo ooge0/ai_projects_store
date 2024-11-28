@@ -1,0 +1,9 @@
+{
+  "model_name": "gpt2",
+  "dataset_name": "custom_dataset.json",
+  "max_length": 256,
+  "batch_size": 16,
+  "learning_rate": 5e-5,
+  "num_epochs": 3,
+  "evaluation_metrics": ["bleu", "rouge-l", "perplexity"]
+}
